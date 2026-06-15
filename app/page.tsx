@@ -4,6 +4,7 @@ import MarqueeFeatures from "@/components/ui/marquee-features";
 import AboutVideoSection from "@/components/ui/about-video-section";
 import PortfolioCards from "@/components/ui/portfolio-cards";
 import ContactTerminal from "@/components/ui/contact-terminal";
+import Footer from "@/components/ui/footer";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <AboutVideoSection metricTarget={6} />
       <PortfolioCards />
       <ContactTerminal />
+      <Footer />
     </main>
   );
 }
