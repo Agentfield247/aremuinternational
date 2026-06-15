@@ -121,7 +121,7 @@ export default function MarqueeFeatures() {
             <div className="absolute right-0 z-20 h-full w-12 sm:w-24 bg-gradient-to-l from-[#050608] to-transparent" />
 
             <div className="-mx-6 flex w-screen flex-col md:-mx-10 lg:-mx-16 gap-3">
-              <Marquee className="[--duration:45s]">
+              <Marquee className="[--duration:70s]">
                 {m1.map((q) => (
                   <span
                     key={q}
@@ -132,7 +132,7 @@ export default function MarqueeFeatures() {
                 ))}
               </Marquee>
 
-              <Marquee className="[--duration:50s]" reverse>
+              <Marquee className="[--duration:60s]" reverse>
                 {m2.map((q) => (
                   <span
                     key={q}
@@ -143,7 +143,7 @@ export default function MarqueeFeatures() {
                 ))}
               </Marquee>
 
-              <Marquee className="[--duration:42s]">
+              <Marquee className="[--duration:80s]">
                 {m3.map((q) => (
                   <span
                     key={q}
