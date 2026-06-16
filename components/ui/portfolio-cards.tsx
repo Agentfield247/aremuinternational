@@ -54,7 +54,8 @@ export default function PortfolioCards() {
         distortion: 0.2,
         swirl: 0.9,
         swirlIterations: 12,
-        shape: "dots" as const,
+        // CHANGED: "dots" updated to "stripes" to pass Netlify TS build checks
+        shape: "stripes" as const,
         shapeScale: 0.12,
         colors: ["#0066FF", "#00C2FF", "#0033CC", "#090B0E"],
       },
