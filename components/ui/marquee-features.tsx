@@ -98,12 +98,6 @@ export default function MarqueeFeatures() {
 
       <div className="mx-auto max-w-full relative z-10">
         <div className="mx-auto flex max-w-5xl flex-col items-center justify-center space-y-6 px-5 text-center md:px-10">
-          <div className="inline-flex items-center gap-2 rounded-full bg-[#FF5A00]/10 px-3 py-1.5 ring-1 ring-[#FF5A00]/30 backdrop-blur-md mb-4">
-            <span className="text-xs font-semibold text-[#FF5A00] uppercase tracking-widest">
-              Strategic Clarity
-            </span>
-          </div>
-
           <h2 className="max-w-3xl font-instrument-serif text-4xl sm:text-5xl lg:text-6xl tracking-tight leading-tight">
             Removing the roadblocks to your success.
           </h2>

@@ -70,6 +70,21 @@ const ResponsiveHeroBanner: React.FC<ResponsiveHeroBannerProps> = ({
       href: "#",
       altText: "AIL Subsidiary Branch 2",
     },
+    {
+      logoUrl: "/branch1.svg",
+      href: "#",
+      altText: "AIL Subsidiary Branch 1",
+    },
+    {
+      logoUrl: "/branch2.svg",
+      href: "#",
+      altText: "AIL Subsidiary Branch 1",
+    },
+    {
+      logoUrl: "/branch1.svg",
+      href: "#",
+      altText: "AIL Subsidiary Branch 1",
+    },
   ],
 }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
