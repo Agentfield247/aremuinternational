@@ -13,18 +13,27 @@ export default function Footer() {
             </h4>
             <ul className="space-y-4 text-sm text-white/80">
               <li>
-                <a href="#" className="hover:text-[#FF5A00] transition-colors">
+                <a
+                  href="venqro.com"
+                  className="hover:text-[#FF5A00] transition-colors"
+                >
                   Venqro
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#FF5A00] transition-colors">
+                <a
+                  href="cubrin.com"
+                  className="hover:text-[#FF5A00] transition-colors"
+                >
                   CUBRIN
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#FF5A00] transition-colors">
-                  Aremu Group
+                <a
+                  href="/coming-soon"
+                  className="hover:text-[#FF5A00] transition-colors"
+                >
+                  Basable
                 </a>
               </li>
             </ul>
@@ -35,17 +44,26 @@ export default function Footer() {
             </h4>
             <ul className="space-y-4 text-sm text-white/80">
               <li>
-                <a href="#" className="hover:text-[#FF5A00] transition-colors">
+                <a
+                  href="/coming-soon"
+                  className="hover:text-[#FF5A00] transition-colors"
+                >
                   Enterprise
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#FF5A00] transition-colors">
+                <a
+                  href="/coming-soon"
+                  className="hover:text-[#FF5A00] transition-colors"
+                >
                   Infrastructure
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#FF5A00] transition-colors">
+                <a
+                  href="/coming-soon"
+                  className="hover:text-[#FF5A00] transition-colors"
+                >
                   Logistics
                 </a>
               </li>
@@ -57,17 +75,26 @@ export default function Footer() {
             </h4>
             <ul className="space-y-4 text-sm text-white/80">
               <li>
-                <a href="#" className="hover:text-[#FF5A00] transition-colors">
+                <a
+                  href="/coming-soon"
+                  className="hover:text-[#FF5A00] transition-colors"
+                >
                   About
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#FF5A00] transition-colors">
+                <a
+                  href="/coming-soon"
+                  className="hover:text-[#FF5A00] transition-colors"
+                >
                   Careers
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#FF5A00] transition-colors">
+                <a
+                  href="/coming-soon"
+                  className="hover:text-[#FF5A00] transition-colors"
+                >
                   Security
                 </a>
               </li>
@@ -79,17 +106,26 @@ export default function Footer() {
             </h4>
             <ul className="space-y-4 text-sm text-white/80">
               <li>
-                <a href="#" className="hover:text-[#FF5A00] transition-colors">
+                <a
+                  href="/coming-soon"
+                  className="hover:text-[#FF5A00] transition-colors"
+                >
                   Blog
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#FF5A00] transition-colors">
+                <a
+                  href="/coming-soon"
+                  className="hover:text-[#FF5A00] transition-colors"
+                >
                   Contact Us
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#FF5A00] transition-colors">
+                <a
+                  href="/coming-soon"
+                  className="hover:text-[#FF5A00] transition-colors"
+                >
                   Documentation
                 </a>
               </li>
@@ -101,13 +137,27 @@ export default function Footer() {
             </h4>
             <ul className="space-y-4 text-sm text-white/80">
               <li>
-                <a href="#" className="hover:text-[#FF5A00] transition-colors">
-                  Digital Strategy
+                <a
+                  href="/terms"
+                  className="hover:text-[#FF5A00] transition-colors"
+                >
+                  Terms and Conditions
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#FF5A00] transition-colors">
-                  Scaling Operations
+                <a
+                  href="/privacy-policy"
+                  className="hover:text-[#FF5A00] transition-colors"
+                >
+                  Privacy Policy
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/refund-policy"
+                  className="hover:text-[#FF5A00] transition-colors"
+                >
+                  Refund Policy
                 </a>
               </li>
             </ul>
@@ -150,10 +200,10 @@ export default function Footer() {
               <a href="#" className="hover:underline">
                 Manage Cookie Preferences
               </a>
-              <a href="#" className="hover:underline">
+              <a href="/terms" className="hover:underline">
                 Terms of Use
               </a>
-              <a href="#" className="hover:underline">
+              <a href="/privacy-policy" className="hover:underline">
                 Privacy Policy
               </a>
             </div>

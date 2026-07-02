@@ -38,13 +38,13 @@ const ResponsiveHeroBanner: React.FC<ResponsiveHeroBannerProps> = ({
   backgroundImageUrl = "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/0e2dbea0-c0a9-413f-a57b-af279633c0df_3840w.jpg",
   navLinks = [
     { label: "Home", href: "/", isActive: true },
-    { label: "About", href: "/about" },
-    { label: "Portfolio", href: "/portfolio" },
-    { label: "Partners", href: "/partners" },
-    { label: "Careers", href: "/careers" },
+    { label: "About", href: "/coming-soon" },
+    { label: "Portfolio", href: "/coming-soon" },
+    { label: "Terms and Policy", href: "/terms" },
+    { label: "Careers", href: "/coming-soon" },
   ],
   ctaButtonText = "Invest / Partner",
-  ctaButtonHref = "/partners",
+  ctaButtonHref = "/coming-soon",
 
   // --- UPDATED RC NUMBER BADGE ---
   badgeLabel = "CAC",

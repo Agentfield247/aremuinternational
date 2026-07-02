@@ -5,7 +5,6 @@ import AboutVideoSection from "@/components/ui/about-video-section";
 import PortfolioCards from "@/components/ui/portfolio-cards";
 import ContactForm from "@/components/ui/contact-terminal";
 import ScaleCTA from "@/components/ui/scale-cta"; // <-- Import the new CTA
-import Footer from "@/components/ui/footer";
 
 export default function Home() {
   return (
@@ -15,8 +14,7 @@ export default function Home() {
       <AboutVideoSection metricTarget={6} />
       <PortfolioCards />
       <ContactForm />
-      <ScaleCTA /> {/* <-- Drop it here before the footer */}
-      <Footer />
+      <ScaleCTA />
     </main>
   );
 }

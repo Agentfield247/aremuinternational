@@ -33,13 +33,6 @@ export default function ContactForm() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-24 items-start">
           {/* LEFT COLUMN: Contact Details */}
           <div className="flex flex-col items-start max-w-xl relative">
-            <div className="inline-flex items-center gap-2 rounded-full bg-[#090B0E]/80 px-3 py-1.5 ring-1 ring-white/10 backdrop-blur-md mb-6">
-              <span className="h-2 w-2 rounded-full bg-[#FF5A00] animate-pulse" />
-              <span className="text-xs font-semibold text-white/80 uppercase tracking-widest">
-                Get In Touch
-              </span>
-            </div>
-
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-instrument-serif text-white tracking-tight leading-[1.1] mb-5">
               Let's build the future of digital infrastructure.
             </h2>
@@ -62,10 +55,10 @@ export default function ContactForm() {
                   </p>
                   {/* break-all added here to prevent mobile overflow */}
                   <a
-                    href="mailto:partners@aremuinternational.com"
+                    href="mailto:hello@aremugroup.com"
                     className="text-[#FF5A00] font-medium hover:text-white transition-colors break-all text-sm sm:text-base"
                   >
-                    partners@aremuinternational.com
+                    hello@aremugroup.com
                   </a>
                 </div>
               </div>

@@ -24,13 +24,13 @@ const portfolioCompanies: Company[] = [
     href: "https://venqro.com",
   },
   {
-    title: "Aremu Group",
+    title: "Basable",
     tag: "Dev Infastucture",
     description:
       "The core operational outlier handling localized infrastructure, idea development and scaling, corporate entity management, and critical logistical networks within emerging markets.",
     logoUrl: "/branch3.svg",
     linkText: "Build your ideas",
-    href: "https://aremugroup.com",
+    href: "https://Basable.com",
   },
   {
     title: "CUBRIN",

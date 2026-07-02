@@ -1,30 +1,11 @@
-import type { Metadata, Viewport } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import type { Metadata } from "next";
 import "./globals.css";
+import Footer from "@/components/ui/footer";
+//import TopNav from "@/components/ui/top-nav"; // Replace with your actual nav component name
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-// THIS IS THE FIX FOR THE IPHONE NOTCH/STATUS BAR
-export const viewport: Viewport = {
-  themeColor: "#090B0E",
-  width: "device-width",
-  initialScale: 1,
-  maximumScale: 1,
-};
-
-// UPDATED AIL BRANDING
 export const metadata: Metadata = {
-  title: "Aremu International Limited",
-  description:
-    "The holding company behind Africa's next generation of digital ventures.",
+  title: "Aremu Group",
+  description: "Technology Holding Company",
 };
 
 export default function RootLayout({
@@ -33,12 +14,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col bg-[#090B0E] text-white">
-        {children}
+    <html lang="en" className="bg-[#050608]">
+      <body className="bg-[#050608] min-h-screen flex flex-col">
+        {/* 1. Global Navigation */}
+
+        {/* 2. This is where your page content gets injected */}
+        <div className="flex-grow">{children}</div>
+
+        {/* 3. Global Footer */}
+        <Footer />
       </body>
     </html>
   );
